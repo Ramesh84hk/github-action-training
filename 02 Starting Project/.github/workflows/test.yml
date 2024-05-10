@@ -11,8 +11,8 @@ jobs:
             with: 
                 node-verion: 18
           - name: install dependencies
-            run: nmp ci
+            run: npm ci
           - name: Run  tests
-            run: nmp test
+            run: npm test
 
           
